@@ -1,0 +1,43 @@
+{
+  "name": "@diegomax/siro-pagos",
+  "version": "0.2.0",
+  "description": "TypeScript client for the SIRO Pagos API.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.check.json --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:smoke": "vitest run test/smoke --passWithNoTests"
+  },
+  "keywords": [
+    "siro",
+    "payments",
+    "gateway",
+    "typescript"
+  ],
+  "license": "UNLICENSED",
+  "dependencies": {
+    "zod": "^3.25.28"
+  },
+  "devDependencies": {
+    "@types/node": "^24.6.0",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.4"
+  }
+}
