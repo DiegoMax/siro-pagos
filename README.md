@@ -1,6 +1,9 @@
 # `@diegomax/siro-pagos`
 
-Cliente TypeScript para la API de SIRO Pagos usando `fetch` nativo de Node 22.
+Cliente TypeScript para la API de [SIRO Pagos](https://onlinesiro.com.ar/) usando `fetch` nativo de Node 22.
+
+Documentacion oficial de la API de SIRO Pagos:
+https://siropagos.bancoroela.com.ar/swagger/ui/index
 
 ## Caracteristicas
 

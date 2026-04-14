@@ -31,6 +31,10 @@
     "gateway",
     "typescript"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiegoMax/siro-pagos.git"
+  },
   "license": "UNLICENSED",
   "dependencies": {
     "zod": "^3.25.28"
